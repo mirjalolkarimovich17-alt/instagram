@@ -7,7 +7,7 @@ description: "Har kuni kechqurun xabash.jonkam Instagram sahifasi uchun ertangi 
 
 Sahifa: Instagram **xabash.jonkam** (brend 99 FOIZ, Buffer orqali). Til: o'zbekcha (lotin). Format: hajviy-ijtimoiy va ma'rifiy Reels, kamida 70 soniya (aniq uzunlikni mavzuga qarab tanlang), 2–3 personaj gapiradi, har safar yangi qahramon, yangi ochilish va mavzuga mos o'z dizayni. Egasi tasdiqlagan namuna: `media/test/tez_sinov_2026-10-16.mp4` (tez, rasmlari ko'p).
 
-Ma'lumotlar repo'da: `safarovman/xabash.reels` (`config.json`, `topics_log.md`, `SCHEDULE_NOTE.md`, `agents/`, `jobs/`). Ish boshida repo'ni oling: `add_repo` (owner safarovman, repo xabash.reels, access push) → `git clone --depth 1 https://github.com/safarovman/xabash.reels` (bor bo'lsa `git pull`). Agent ko'rsatmalari: `agents/topic_scout.md`, `agents/history_scout.md`, `agents/hook_director.md`.
+Ma'lumotlar repo'da: `mirjalolkarimovich17-alt/instagram` (`config.json`, `topics_log.md`, `SCHEDULE_NOTE.md`, `agents/`, `jobs/`). Ish boshida repo'ni oling: `add_repo` (owner mirjalolkarimovich17-alt, repo instagram, access push) → `git clone --depth 1 https://github.com/mirjalolkarimovich17-alt/instagram` (bor bo'lsa `git pull`). Agent ko'rsatmalari: `agents/topic_scout.md`, `agents/history_scout.md`, `agents/hook_director.md`.
 
 **Egasi mavzuni o'zi bergan bo'lishi mumkin**: avval `topics_log.md`, `jobs/` va Buffer `list_posts` ni tekshiring — ertangi kun uchun mavzu tasdiqlangan yoki video yasalayotgan bo'lsa, yangi taklif qilmang va dublikat yasamang; faqat yetishmayotgan slotlarni to'ldiring.
 

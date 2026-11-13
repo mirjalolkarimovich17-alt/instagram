@@ -1,6 +1,6 @@
 // Flow sahifasida: await (0,eval)(await fetch(RAW+'tools/flow_helper.js').then(r=>r.text())); await initFlow(SHA)
 window.initFlow = async (sha) => {
-  const raw = `https://raw.githubusercontent.com/safarovman/xabash.reels/${sha}/jobs/`;
+  const raw = `https://raw.githubusercontent.com/mirjalolkarimovich17-alt/instagram/${sha}/jobs/`;
   const a = await fetch(raw + 'flow_2026-10-18.json').then(r => r.json());
   const b = await fetch(raw + 'flow_v2_2026-10-18.json').then(r => r.json());
   window.P = a; for (const j in b) { P[j] = P[j] || {}; Object.assign(P[j], b[j]); }

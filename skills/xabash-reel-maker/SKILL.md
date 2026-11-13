@@ -5,7 +5,7 @@ description: "Tasdiqlangan mavzudan xabash.jonkam uchun to'liq o'zbekcha Reels y
 
 # Mavzudan tayyor Reels videoga (video yig'uvchi)
 
-Repo: `safarovman/xabash.reels` (klon: `/home/claude/xabash.reels`; yo'q bo'lsa clone, bor bo'lsa `git pull`). Dvigatel: `reel/engine.py`, format: `SCHEMA.md` (avval o'qing), to'liq tartib: `skills/WORKFLOW.md` (0d, 0c, 0a, 0, 0b — eng ustun qoidalar), agentlar: `agents/README.md` va `agents/*.md`, grafiklar: `analytics/*.md`. Sozlamalar: `config.json` (`slots`, `style`, `video_rules`, `elevenlabs`). Band slotlar: `SCHEDULE_NOTE.md`. Brend: 99 FOIZ (1% / BIR FOIZ va boshqa sahifalar logotipi ishlatilmaydi).
+Repo: `mirjalolkarimovich17-alt/instagram` (klon: `/home/claude/xabash.reels`; yo'q bo'lsa clone, bor bo'lsa `git pull`). Dvigatel: `reel/engine.py`, format: `SCHEMA.md` (avval o'qing), to'liq tartib: `skills/WORKFLOW.md` (0d, 0c, 0a, 0, 0b — eng ustun qoidalar), agentlar: `agents/README.md` va `agents/*.md`, grafiklar: `analytics/*.md`. Sozlamalar: `config.json` (`slots`, `style`, `video_rules`, `elevenlabs`). Band slotlar: `SCHEDULE_NOTE.md`. Brend: 99 FOIZ (1% / BIR FOIZ va boshqa sahifalar logotipi ishlatilmaydi).
 
 Har video papkasi: `jobs/<YYYY-MM-DD>_<HHMM>_<slug>/` — `scenes.json`, `img/` (sahnalar `NN.jpg`, qo'shimcha kadrlar `NNb.jpg`/`NNc.jpg`, ixtiyoriy `NN_b.jpg`, personajlar `c_<nom>.jpg`, buyumlar `p_<nom>.jpg`, imo-ishoralar `p_g_<nom>.jpg`, muqova `cover.jpg`), `aud/vo_NN.mp3`, agent brieflari `brief_hooks.json`, `brief_style.json`, `brief_music.json`, `brief_gestures.json`, `qa_report.json`, `post.json`.
 

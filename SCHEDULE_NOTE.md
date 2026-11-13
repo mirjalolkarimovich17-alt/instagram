@@ -1,3 +1,10 @@
+# Yangi kompyuterga ko'chirildi 2026-11-13
+- Repo: mirjalolkarimovich17-alt/instagram (media tarmog'i bo'sh, yangidan).
+- Buffer: onesurxon (6af6eac462b70b94b018d57f), bepul reja, 10 ta rejalashtirilgan post limiti. Eski xabash.jonkam postlari bu yerda yo'q.
+- ElevenLabs: yangi free akkaunt, flow IbfZOgJFqlYSpaZ2OPSG, hikoyachi SARHAD-SIZ Narrator. Ayol o'zbekcha ovoz yo'q.
+- A/B bo'linishi bekor — hamma slotlar bitta sessiyaniki.
+- Quyidagi eski yozuvlar tarix uchun qoldirildi.
+
 # Jadval kelishuvi (boshqa sessiyalar uchun)
 2026-10-16 — 5 ta slot ham Buffer'da (hammasi automatic, shouldShareToFeed true):
 - 08:00 Xating hali pochtada (6ad0a5066742034cc4e7b95c)

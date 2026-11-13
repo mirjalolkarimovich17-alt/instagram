@@ -1,58 +1,39 @@
 {
-  "repo": "safarovman/xabash.reels",
+  "repo": "mirjalolkarimovich17-alt/instagram",
   "media_branch": "media",
-  "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
+  "raw_base": "https://raw.githubusercontent.com/mirjalolkarimovich17-alt/instagram/media",
   "buffer": {
-    "organizationId": "6acf32171f604a4a9e53f75e",
-    "channelId": "6acf32c0778b240e2f04fcdf",
-    "account": "xabash.jonkam"
+    "organizationId": "6af6e9956a5ed3c0e196ebc8",
+    "channelId": "6af6eac462b70b94b018d57f",
+    "account": "onesurxon",
+    "plan_note": "2026-11-13: yangi Buffer (bepul reja: 3 kanal, bir vaqtda ko'pi bilan 10 ta rejalashtirilgan post)."
   },
   "elevenlabs": {
-    "voice_id": "kGOig3GPePLxobJGHo2M",
-    "voice_name": "Bekzod - Warm, Confident, Deep (hikoyachi, HAR DOIM)",
+    "voice_id": "rwtcHtZgYU6HN2zLNBlf",
+    "voice_name": "SARHAD-SIZ Narrator (hikoyachi, HAR DOIM)",
     "model_id": "eleven_v4",
-    "flow_id": "qGgjoCYEgz4zhvjl3GCQ",
+    "flow_id": "IbfZOgJFqlYSpaZ2OPSG",
     "generations_count": 1,
     "cast": {
       "hikoyachi": {
-        "voice_id": "kGOig3GPePLxobJGHo2M",
-        "name": "Bekzod",
-        "note": "har videoda, o'zgarmaydi"
-      },
-      "yosh_qiz": {
-        "voice_id": "O72h9AUwisM6Zj4He72B",
-        "name": "Dilnoza",
-        "note": "sinovdan o'tdi: aniq, quvnoq; qiz, singil, talaba"
-      },
-      "yosh_qiz_2": {
-        "voice_id": "cyPun3bl9MxcpLBX6pT0",
-        "name": "Zilola",
-        "note": "sinovdan o'tdi: tez, quvnoq; ikkinchi qiz/dugona"
-      },
-      "ona_ayol": {
-        "voice_id": "132QLQIkg1RJGmpicuhR",
-        "name": "Nodira",
-        "note": "sinovdan o'tdi: ishonchli, iliq; ona, opa, o'qituvchi, jahl sahnalari"
-      },
-      "ayol_2": {
-        "voice_id": "eggZu1Ffe4if51TKev2v",
-        "name": "Shahnoza",
-        "note": "ikkinchi katta ayol (qaynona, qo'shni)"
+        "voice_id": "rwtcHtZgYU6HN2zLNBlf",
+        "name": "SARHAD-SIZ Narrator",
+        "note": "har videoda, o'zgarmaydi; tarixiy hujjatli hikoya uchun"
       },
       "ota_bobo": {
-        "voice_id": "xDwfBjUEPdIoQekNOXAX",
-        "name": "Jahongir",
-        "note": "sinovdan o'tdi: chuqur, salobatli; ota/bobo — bobo uchun [elderly voice]"
+        "voice_id": "nXdUXfIGcAbTyJ2kC04t",
+        "name": "Abror",
+        "note": "o'rta yosh erkak; bobo uchun [elderly voice]; birinchi ishlatishda qisqa sinov"
       },
       "yigit_oshna": {
-        "voice_id": "UjuEL3hLLUaDED9iW4Yb",
-        "name": "Sardor",
-        "note": "yigit, oshna, aka-uka; birinchi ishlatishda bitta qisqa sinov qatori bilan tekshiring"
+        "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+        "name": "Sodiqjon",
+        "note": "yosh yigit; birinchi ishlatishda qisqa sinov"
       },
-      "buvi": {
-        "voice_id": "VTN9ql0D5MshokKncKAy",
-        "name": "Malika",
-        "note": "buvi, [elderly voice] [warmly]; zaxira: Gulnora 6Fkh9WgMXOqBcOWxX91f"
+      "erkak_2": {
+        "voice_id": "agoC45V78njTIxYzwmSb",
+        "name": "Davronbek",
+        "note": "ikkinchi katta erkak (sarkarda, elchi, xabarchi)"
       }
     },
     "banned_voices": [
@@ -66,11 +47,12 @@
       "O'zbekcha matn uchun FAQAT o'zbek (native) ovozlar. Ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) taqiqlangan — o'zbekchani past va tushunarsiz o'qiydi.",
       "Har bir qatorda 1–2 eleven_v4 hissiyot tegi: [excited] [laughs] [chuckles] [sighs] [sad] [angry] [surprised] [whispers] [warmly] [sarcastic] [pause]; bobo/buvi uchun [elderly voice]. Teglar gap mazmuniga mos, ortiqcha emas.",
       "Tabiiy so'zlashuv: 'Voy', 'Ex', 'Ha-a', 'Qo'ysang-chi', 'Uka', 'Bolam' kabi so'zlar, qisqa pauzalar (...), so'roq va undov ohangi. Rasmiy kitobiy til emas.",
-      "Bitta videoda har personaj boshqa ovozda; hikoyachi doim Bekzod.",
+      "Bitta videoda har personaj boshqa ovozda; hikoyachi doim cast.hikoyachi.",
       "Dvigatel har bir ovoz bo'lagini avtomatik bir xil balandlikka keltiradi (vo_lufs, standart -16 LUFS).",
       "Yangi ovoz kerak bo'lsa (masalan bola, chet ellik): creative_list_voices dan o'zbekcha ovoz tanlab, bitta qisqa sinov qatori bilan tekshiring, so'ng cast ga yozing."
     ],
-    "account_note": "2026-10-16: egasi ElevenLabs akkauntini almashtirdi. Yangi workspace flow: qGgjoCYEgz4zhvjl3GCQ (eski g89LrH9AMPN93hZwIUYS va vrOkazhVp30VTw8bn1YR ishlatilmaydi). O'zbek ovozlari yangi akkauntda ham bor (tekshirildi). Flow ochilmasa — creative_create_flow bilan yangisini oching va shu yerga yozing."
+    "account_note": "2026-11-13: yangi kompyuter/yangi ElevenLabs (free, 10 000 kredit/oy). Flow: IbfZOgJFqlYSpaZ2OPSG. Eski Bekzod/Dilnoza/... ovozlari bu akkauntda yo'q — cast yangilandi.",
+    "missing_roles": "Yangi akkauntda o'zbekcha AYOL ovozi yo'q (yosh_qiz, ona_ayol, ayol_2, buvi). Kerak bo'lsa: creative_design_voice bilan o'zbekcha ayol ovozi yaratish yoki ayol rolini hikoyachi orqali bilvosita aytish. Ingliz ovozlari taqiqlangan."
   },
   "timezone": "Asia/Tashkent",
   "slots": [
@@ -94,19 +76,19 @@
     },
     {
       "time": "14:30",
-      "account": "B",
+      "account": "A",
       "category": "jahon tarixi",
       "theme": "janglar, imperiyalar, sarkardalar (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "16:30",
-      "account": "B",
+      "account": "A",
       "category": "XX asr tarixi",
       "theme": "Ikkinchi jahon urushi, SSSR, «nega shunday bo'ldi?» (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "18:30",
-      "account": "B",
+      "account": "A",
       "category": "tarix — «agar…» / 2-qismlar",
       "theme": "muhim voqea boshqacha tugaganida nima bo'lardi, hujjatlarga tayangan holda (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     }
@@ -155,24 +137,17 @@
   "videos_per_day": 6,
   "accounts": {
     "A": {
-      "desc": "asosiy Claude akkaunt (rejalashtirilgan vazifa trig_01QZiexBLk2FjYwpYcsi5xVu)",
-      "run_local": "18:54",
-      "slots": [
-        "14:30",
-        "18:30",
-        "21:00"
-      ]
-    },
-    "B": {
-      "desc": "ikkinchi Claude Pro akkaunt (o'z rejalashtirilgan vazifasi)",
-      "run_local": "12:54",
+      "desc": "yagona Claude akkaunt (2026-11-13 dan barcha slotlar)",
       "slots": [
         "08:00",
         "10:30",
-        "12:30"
+        "12:30",
+        "14:30",
+        "16:30",
+        "18:30"
       ]
     },
-    "note": "2026-10-18: egasi limitni tejash uchun 2 ta Claude Pro akkaunt ishlatadi. Har akkaunt faqat o'z slotlari uchun mavzu taklif qiladi, video yasaydi va Buffer'ga qo'yadi. Kelajak (16:00) slot olib tashlandi."
+    "note": "2026-11-13: A/B bo'linishi bekor qilindi — hamma slotlar bitta sessiyaniki."
   },
   "content_policy_note": "2026-10-22 egasi: faqat tarix. A akkaunt 08:00/10:30/12:30, B akkaunt 14:30/16:30/18:30 (agents/SPLIT.md)."
 }

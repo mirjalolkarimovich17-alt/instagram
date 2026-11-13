@@ -1,7 +1,7 @@
 // Google Flow tabida bir marta ishga tushiring: PQ (prompt ro'yxati) yuklanadi va yordamchilar paydo bo'ladi.
 // Ishlatish: await initFast('<media commit sha>','tmp/prompts.json')  -> [[ "job/01.jpg", "prompt" ], ...]
 window.initFast = async (sha, path) => {
-  window.PQ = await fetch(`https://raw.githubusercontent.com/safarovman/xabash.reels/${sha}/${path}`).then(r => r.json());
+  window.PQ = await fetch(`https://raw.githubusercontent.com/mirjalolkarimovich17-alt/instagram/${sha}/${path}`).then(r => r.json());
   window.PI = 0; window.SUB = []; window.MM = window.MM || {}; return PQ.length;
 };
 // Keyingi promptni maydonga yozadi (keyin yuborish strelkasini bosing)
@@ -17,7 +17,7 @@ window.packJob = async (job, name) => { const keys = Object.keys(MM).filter(k =>
   for (const k of keys) { const r = await fetch(MM[k]); if (!r.ok) { bad.push(k); continue; } const b = new Uint8Array(await r.arrayBuffer()); parts.push(b); idx.push([k, b.length]); }
   return window.dl(parts, idx, name, bad); };
 // URL ro'yxatini (masalan ElevenLabs audio) bitta fayl qilib yuklab oladi: [[ "job/vo_01.mp3", url ], ...]
-window.packUrls = async (sha, path, name) => { const L = await fetch(`https://raw.githubusercontent.com/safarovman/xabash.reels/${sha}/${path}`).then(r => r.json()); const parts = [], idx = [], bad = [];
+window.packUrls = async (sha, path, name) => { const L = await fetch(`https://raw.githubusercontent.com/mirjalolkarimovich17-alt/instagram/${sha}/${path}`).then(r => r.json()); const parts = [], idx = [], bad = [];
   for (const [k, u] of L) { try { const r = await fetch(u); if (!r.ok) { bad.push([k, r.status]); continue; } const b = new Uint8Array(await r.arrayBuffer()); parts.push(b); idx.push([k, b.length]); } catch (e) { bad.push([k, String(e)]); } }
   return window.dl(parts, idx, name, bad); };
 window.dl = (parts, idx, name, bad) => { const hj = new TextEncoder().encode(JSON.stringify(idx)); const h = new Uint8Array(4); new DataView(h.buffer).setUint32(0, hj.length);

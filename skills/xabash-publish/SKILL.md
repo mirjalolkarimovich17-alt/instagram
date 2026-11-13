@@ -17,7 +17,7 @@ cp jobs/<job>/out/video.mp4 /tmp/media/<YYYY-MM-DD>/<HHMM>_<slug>.mp4
 cp jobs/<job>/out/cover.jpg /tmp/media/<YYYY-MM-DD>/<HHMM>_<slug>_cover.jpg
 cd /tmp/media && git add -A && git commit -m "media: <date> <slug>" && git push origin media
 ```
-Havola: `https://raw.githubusercontent.com/safarovman/xabash.reels/media/<YYYY-MM-DD>/<HHMM>_<slug>.mp4` — `curl -sIL` bilan 200 ekanini tekshiring. Har bir fayl < 100 MB.
+Havola: `https://raw.githubusercontent.com/mirjalolkarimovich17-alt/instagram/media/<YYYY-MM-DD>/<HHMM>_<slug>.mp4` — `curl -sIL` bilan 200 ekanini tekshiring. Har bir fayl < 100 MB.
 Tozalash: `media` tarmog'ida 14 kundan eski papkalarni o'chiring (faqat Buffer'da `sent` bo'lganlarini).
 
 ## 2. Buffer
